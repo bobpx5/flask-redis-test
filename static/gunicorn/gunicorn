@@ -1,0 +1,8 @@
+
+gunicorn -b localhost:8880 -w 4 wsgi:application
+
+
+
+
+
+
